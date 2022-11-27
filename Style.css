@@ -189,7 +189,7 @@ h6{
 
 @media(max-width:760px) {
     .imagens{
-    width: 400px;
+    width: 200px;
     height: 200px;
     display: block;
     margin-left: auto;
