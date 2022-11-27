@@ -199,7 +199,14 @@ h6{
     border-radius:3em;
 }
 h1{
-    font-size: 30px;
+    font-size: 25px;
+}
+main{
+        background-color: rgb(243, 253, 97);
+        margin-left: 0cm;
+        margin-right: 0cm;
+        padding: 10px;
+        line-height: 20px;
 }
 header{
     background-color: green;
@@ -213,9 +220,9 @@ header{
     padding-bottom: 5px;
 }
 .Logo{
-    width: 100px;
+    width: 80px;
     height: 60px;
-    margin-top: -50px;
+    margin-top: -40px;
     margin-left: 5px;
     display: flex;
 }
