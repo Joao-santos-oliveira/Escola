@@ -189,7 +189,7 @@ h6{
 
 @media(max-width:760px) {
     .imagens{
-    width: 500px;
+    width: 400px;
     height: 200px;
     display: block;
     margin-left: auto;
@@ -224,12 +224,14 @@ header{
     color: rgb(0, 0, 0);
     font-family:fantasy;
     font-size: 15px;
+    margin: 5px;
 }
 #Formato{
     text-align: justify;
     color: rgb(0, 0, 0);
     font-family:fantasy;
     font-size: 15px;
+    margin: 5px;
 }
 h3,h2{
     font-size: 18px;
