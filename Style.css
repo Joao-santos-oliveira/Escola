@@ -129,13 +129,7 @@ footer{
     margin-left: 5px;
     display: flex;
 }
-@media screen and (max-width:760px) {
-    .Logo{
-        width: 100px;
-        height: 60px;
-    }
-    
-}
+        
 h5{
     border-top: solid black 5px;
 }
@@ -187,8 +181,98 @@ h8, h9, h10, h11, h12, h13, h14:hover{
 a{
     text-decoration: none;
 }
-h20{ 
+h6{ 
     font-size: 22px;
     font-family: fantasy;
     text-decoration-color: black;
+}
+
+@media(max-width:760px) {
+    .imagens{
+    width: 500px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border-radius:3em;
+}
+h1{
+    font-size: 30px;
+}
+header{
+    background-color: green;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -25px;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+}
+.Logo{
+    width: 100px;
+    height: 60px;
+    margin-top: -50px;
+    margin-left: 5px;
+    display: flex;
+}
+#Oque{
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-family:fantasy;
+    font-size: 15px;
+}
+#Formato{
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-family:fantasy;
+    font-size: 15px;
+}
+h3,h2{
+    font-size: 18px;
+    color: rgb(100, 90, 90);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h6{ 
+    font-size: 16px;
+    font-family: fantasy;
+    text-decoration-color: black;
+}
+h8, h9, h10, h11, h12, h13, h14{
+    display: block;
+    width: 120px;
+    height: 30px;
+    line-height: 40px;
+    padding: 10px 5px;
+    margin: 20px;
+    background-color:rgb(147, 255, 121);
+    color: rgb(255, 252, 102);
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial;
+    color: inherit;
+}
+footer{
+    text-align: center;
+    background-color: rgb(91, 218, 148);
+    color:black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: 10px;
+    margin-bottom: -0.5cm;
+}
+#inicio{
+    width: 50px;
+    height: 40px;
+    float: left;
+    display: flex;
+    margin: 5px;
+}
 }
