@@ -189,7 +189,7 @@ h6{
 
 @media(max-width:760px) {
     .imagens{
-    width: 200px;
+    width: 350px;
     height: 200px;
     display: block;
     margin-left: auto;
@@ -252,9 +252,9 @@ h6{
 }
 h8, h9, h10, h11, h12, h13, h14{
     display: block;
-    width: 120px;
-    height: 30px;
-    line-height: 40px;
+    width: 80px;
+    height: 20px;
+    line-height: 20px;
     padding: 10px 5px;
     margin: 20px;
     background-color:rgb(147, 255, 121);
@@ -265,6 +265,7 @@ h8, h9, h10, h11, h12, h13, h14{
     font-weight: bold;
     font-family: Arial;
     color: inherit;
+    font-size: 13px;
 }
 footer{
     text-align: center;
