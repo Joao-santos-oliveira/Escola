@@ -1,0 +1,194 @@
+h1{
+    text-align: center;
+    font-size: 60px;
+    color:rgb(0, 0, 0);
+    font-family: fantasy;
+}
+h1{
+    animation-name: titulo;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-direction:normal;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+header{
+    background-color: green;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    padding-bottom: 5px;
+}
+nav ul{
+    box-sizing: border-box;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+nav ul li a{
+    text-decoration:none;
+    color: white;
+}
+nav ul li a:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color:rgb(212, 212, 212);
+    padding: 8px;
+    font-size: 20px;
+    transition: linear 0.5s 0.3s;
+}
+body{
+    background-color: rgb(255, 255, 30)
+} 
+.imagens{
+    width: 900px;
+    height: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border-radius:3em;
+}
+
+main{
+    background-color: rgb(243, 253, 97);
+    margin-left: 1cm;
+    margin-right: 1cm;
+    padding: 10px;
+    line-height: 30px;
+}
+    
+#Oque{
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-family:fantasy;
+    font-size: 25px;
+}
+#Formato{
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-family:fantasy;
+    font-size: 25px;
+}
+h2{
+    font-size: 28px;
+    color: rgb(100, 90, 90);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align:inherit;
+}
+h3{
+    font-size: 28px;
+    color: rgb(100, 90, 90);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#EuropaLeague:link{
+    color: turquoise;
+    text-decoration: none;
+}
+#EuropaLegue:visited{
+    color: teal;
+    text-decoration: none;
+}
+#EuropaLeague:hover{
+    cursor: pointer;
+    font-size: 28px;
+    transition: linear 1s 0.5s;
+}
+footer{
+    text-align: center;
+    background-color: rgb(91, 218, 148);
+    color:black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: 20px;
+    margin-bottom: -0.5cm;
+}
+#inicio{
+    width: 70px;
+    height: 50px;
+    float: left;
+    display: flex;
+    margin: 5px;
+}
+.Logo{
+    width: 200px;
+    height: 120px;
+    margin-top: -120px;
+    margin-left: 5px;
+    display: flex;
+}
+@media screen and (max-width:760px) {
+    .Logo{
+        width: 100px;
+        height: 60px;
+    }
+    
+}
+h5{
+    border-top: solid black 5px;
+}
+ul2{
+    box-sizing: border-box;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    box-sizing: border-box;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+h8, h9, h10, h11, h12, h13, h14{
+    display: block;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    padding: 10px 5px;
+    margin: 20px;
+    background-color:rgb(147, 255, 121);
+    color: rgb(255, 252, 102);
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial;
+    color: inherit;
+}
+a{
+    color: black;
+}
+h8, h9, h10, h11, h12, h13, h14:hover{
+    cursor: pointer;
+    font-size: 16px;
+    transition: linear 1s 0.5s;
+}
+a{
+    text-decoration: none;
+}
+h20{ 
+    font-size: 22px;
+    font-family: fantasy;
+    text-decoration-color: black;
+}
