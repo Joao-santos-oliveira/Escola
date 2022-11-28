@@ -191,6 +191,7 @@ h1{
     font-size: 25px;
    text-align:center;
    padding-top: 20px;
+   padding-left: 10px;
 }
 main{
         background-color: rgb(243, 253, 97);
@@ -216,7 +217,7 @@ header{
     margin-top: -60px;
     margin-left: 5px;
     display: flex;
-    padding: 10px;
+    padding-right: 10px;
 }
 #Oque{
     text-align: justify;
@@ -244,7 +245,7 @@ h6{
 }
 h8, h9, h10, h11, h12, h13, h14{
     display: block;
-    width: 80px;
+    width: 110px;
     height: 20px;
     line-height: 20px;
     padding: 10px 5px;
@@ -257,7 +258,7 @@ h8, h9, h10, h11, h12, h13, h14{
     font-weight: bold;
     font-family: Arial;
     color: inherit;
-    font-size: 15px;
+    font-size: 12px;
 }
 footer{
     text-align: center;
